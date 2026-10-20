@@ -1,2 +1,60 @@
 # iannpgg.github.io
 Interactive 3D mechanical engineering portfolio and project case studies.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iann Phouthongseng | Engineering Portfolio</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    h1 {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 10px;
+      color: #f0f6fc;
+    }
+    .project-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .sketchfab-embed-wrapper iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 6px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Iann Phouthongseng — Interactive Portfolio</h1>
+  <p>Welcome! Here are interactive 3D CAD models and engineering projects.</p>
+
+  <div class="project-card">
+    <h2>ZPU-4 Anti-Aircraft Gun Assembly</h2>
+    <p>3D mechanical assembly modeled in SolidWorks. Click and drag inside the viewer below to rotate, pan, and inspect the geometry in full 3D.</p>
+    
+    <div class="sketchfab-embed-wrapper"> 
+      <iframe title="ZPU Stationary" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/795b8fa13ccf4372b8a8696021667b99/embed"> </iframe> 
+      <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #8b949e;"> 
+        <a href="https://sketchfab.com/3d-models/zpu-stationary-795b8fa13ccf4372b8a8696021667b99" target="_blank" rel="nofollow" style="font-weight: bold; color: #58a6ff;"> ZPU Stationary </a> by 
+        <a href="https://sketchfab.com/iannpgg2003" target="_blank" rel="nofollow" style="font-weight: bold; color: #58a6ff;"> iannpgg2003 </a> on 
+        <a href="https://sketchfab.com" target="_blank" rel="nofollow" style="font-weight: bold; color: #58a6ff;">Sketchfab</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
